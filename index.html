@@ -16,7 +16,7 @@
           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
           sans-serif;
       }
-      #main {
+      #inicio {
         background: radial-gradient(
           at center top,
           #06050b 20%,
@@ -31,12 +31,12 @@
         color: white;
         text-transform: lowercase;
       }
-      #main h1 {
+      #inicio h1#logo {
         position: relative;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
       }
-      #main h1:after {
+      #inicio h1:after {
         content: "";
         color: white;
         background-color: white;
@@ -85,7 +85,7 @@
         }
       }
 
-      #inicio {
+      #equipo {
         height: 100dvh;
         display: flex;
         justify-content: center;
@@ -100,12 +100,12 @@
     </style>
   </head>
   <body>
-    <div id="main">
-      <h1>
+    <div id="inicio">
+      <h1 id="logo">
         Insertar <br />
         Nombre
       </h1>
-      <a href="#inicio" class="scroll-down">
+      <a href="#equipo" class="scroll-down">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -122,7 +122,7 @@
         </svg>
       </a>
     </div>
-    <div id="inicio">
+    <div id="equipo">
       <h2>Equipo</h2>
       <ol class="team-list">
         <li>Adrián - <small>Eng manager</small></li>
